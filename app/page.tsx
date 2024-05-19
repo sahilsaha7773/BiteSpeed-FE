@@ -122,7 +122,7 @@ export default function Home() {
         id: getId(),
         type,
         position,
-        data: { label: `${type} node` },
+        data: { value: `${type} node` },
       };
 
       setNodes((nds) => nds.concat(newNode));
