@@ -113,7 +113,7 @@ export default function Home() {
       if (typeof type === "undefined" || !type) {
         return;
       }
-
+      // @ts-ignore
       const position = reactFlowInstance.screenToFlowPosition({
         x: event.clientX,
         y: event.clientY,
